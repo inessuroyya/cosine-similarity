@@ -6,13 +6,13 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from src.similarity import (
+from similarity import (
     compare_with_sklearn,
     cosine_similarity,
     rank_pairs,
     similarity_matrix,
 )
-from src.vectorizer import TextVectorizer
+from vectorizer import TextVectorizer
 
 st.set_page_config(page_title="Kemiripan Kalimat - Cosine Similarity", page_icon="📐")
 

@@ -13,13 +13,13 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.similarity import (
+from similarity import (
     compare_with_sklearn,
     cosine_similarity,
     rank_pairs,
     similarity_matrix,
 )
-from src.vectorizer import TextVectorizer
+from vectorizer import TextVectorizer
 
 
 def _load_stopwords(path: str | None) -> list[str]:

@@ -7,7 +7,7 @@ from typing import Iterable, Sequence
 
 import numpy as np
 
-from .preprocessing import get_indonesian_stemmer, tokenize
+from preprocessing import get_indonesian_stemmer, tokenize
 
 
 class TextVectorizer:
