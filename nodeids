@@ -1,0 +1,18 @@
+[
+  "tests/test_similarity.py::test_different_length_raises",
+  "tests/test_similarity.py::test_empty_raises",
+  "tests/test_similarity.py::test_identical_vectors",
+  "tests/test_similarity.py::test_matches_sklearn",
+  "tests/test_similarity.py::test_matrix_diagonal_and_symmetry",
+  "tests/test_similarity.py::test_opposite_vectors",
+  "tests/test_similarity.py::test_orthogonal_vectors",
+  "tests/test_similarity.py::test_rank_pairs_sorted",
+  "tests/test_similarity.py::test_scaled_vectors_still_one",
+  "tests/test_similarity.py::test_stopwords_removed",
+  "tests/test_similarity.py::test_text_identical_docs",
+  "tests/test_similarity.py::test_text_no_common_words",
+  "tests/test_similarity.py::test_zero_vector_returns_zero",
+  "tests/test_stemming.py::test_stemming_identical_after_stem",
+  "tests/test_stemming.py::test_stemming_off_by_default",
+  "tests/test_stemming.py::test_stemming_raises_similarity"
+]
